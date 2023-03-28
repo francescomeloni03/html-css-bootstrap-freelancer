@@ -3,4 +3,47 @@
     background-color: #2c3e50;
     height: 50px;
     align-items: center;
+    color: white;
+}
+
+
+
+.my-main-1{
+    background-color: #1abc9c;
+    height: 300px;
+    text-align: center;
+}
+
+
+.my-main-2{
+    height: 400px;
+    text-align: center;
+}
+
+
+.my-main-3{
+    height: 250px;
+    text-align: center;
+    background-color: #1abc9c;
+}
+
+
+
+.my-main-4{
+    height: 350px;
+    text-align: center;
+}
+
+
+.my-footer-1{
+    height: 150px;
+    text-align: center;
+    background-color: #3a546d ;
+}
+
+
+.my-footer-2{
+    height: 100px;
+    text-align: center;
+    background-color: #2c3e50;
 }
