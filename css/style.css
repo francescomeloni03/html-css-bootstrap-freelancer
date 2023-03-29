@@ -77,8 +77,8 @@
 
 
 .box{
-    width: 250px;
-    height: 200px;
+    width:30%;
+    min-height: 200px;
    
     margin-bottom: 10px;
 }
@@ -88,6 +88,11 @@
     min-height: 250px;
     text-align: center;
     background-color: #1abc9c;
+}
+
+
+.my-display{
+    display: flex;
 }
 
 
@@ -144,3 +149,53 @@
 
 .col-offset-2 { margin-left: calc((100% / 12) * 2); }
 .col-offset-3 { margin-left: calc((100% / 12) * 3); }
+
+
+
+
+
+
+
+
+
+/* Responsive */
+
+
+@media screen and (min-width: 768px ) and (max-width: 1023px) {
+    .box{
+        width: 45%;
+        
+    }
+}
+
+
+
+
+@media screen and (max-width:767px) {
+    .box{
+        width: 100%;
+    }
+
+    .my-display{
+        display: block;
+    }
+
+    .box-main{
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    .box-footer{
+        width: 100%;
+    }
+
+
+
+
+
+    
+
+
+
+
+}
