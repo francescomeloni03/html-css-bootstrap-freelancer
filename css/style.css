@@ -25,6 +25,10 @@
     text-align: center;
 }
 
+.size-img{
+    height: 285px;
+}
+
 
 .my-main-2{
     min-height: 500px;
@@ -75,7 +79,7 @@
 .box{
     width: 250px;
     height: 200px;
-    border: 1px solid;
+   
     margin-bottom: 10px;
 }
 
